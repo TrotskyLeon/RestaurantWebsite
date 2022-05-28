@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1 {background-color: white; max-width: 32vw; padding: 0.5vw 1vw; text-align: center; margin-top: 0vw; font-size: 3.5vw; box-shadow: 0 0 3vw 1vw #303030; outline: solid black; outline-offset: -0.5vw; text-transform: uppercase}
+h2 {background-color: white; max-width: 95vw; padding: 1.25vw 1.5vw; font-weight: 500; text-align: justify;box-shadow: 0 0 2vw 1vw #303030; outline: solid black; outline-offset: -0.5vw; margin-top: 3vw; font-size: 2vw}
+.text h2 {margin-bottom: 0; max-width: 95vw; margin-right: 0vw}
+.restaurantdesc a {background-color: white; text-transform: none; color: rgba(86,86,86,1.00); font-weight: 650}
+.restaurantdesc a:hover {color: rgba(146,146,146,1.00); transition: 0.25s ease-in-out}
+.parallax {background-image: url(../img/architecture-bar-business-791810.jpg); height: 100%; background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover; max-width: 100%; padding: 8vw 1vw}
+.text {margin-bottom: 0;}
+.blurdiv {
+	height: 7vw; 
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.1),rgba(0,0,0,0.25),rgba(0,0,0,0.5),rgba(0,0,0,0.75),rgba(0,0,0,1),rgba(0,0,0,0.75),rgba(0,0,0,0.5),rgba(0,0,0,0.25),rgba(0,0,0,0));
+	width: 100%; z-index: 2; position: absolute;
+}
+.blurdivgray {height: 7vw; 
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.1),rgba(0,0,0,0.25),rgba(0,0,0,0.5),rgba(0,0,0,0.75),rgba(0,0,0,1),rgba(12,12,12,0.75),rgba(23,23,23,0.5),rgba(34,34,34,0.25),rgba(0,0,0,0));
+	width: 100%; z-index: 2; position: absolute;}
+.clientprofile {padding: 4vw 2vw; background-color: rgba(34,34,34,1.00); overflow: hidden; display: flex; align-items: center; justify-content: center }
+.clientpic {max-width: 100%; border: solid 0.3vw rgba(198,166,104,1.00); border-radius: 1vw;display: block}
+
+h5 {color: white; font-size: 3.2vw; margin: 1vw; padding-bottom: 4vw; padding-top: 0vw; text-transform: uppercase;}
+h6 {color: white; font-size: 2.1vw; margin: 1vw; font-weight: 500}
+.text2 { display: inline-block; overflow: hidden; float: right; text-align: justify; padding: 0vw 2vw}
+.clientpicdiv {max-width: 30%; min-width: 30%}
+
+h3 {transform: translateY(-1vw) translateX(2vw)}
+
+@media screen and  (max-width: 414px) {
+	.clientpicdiv {min-width:90%;}
+	.clientprofile {flex-direction: row;flex-wrap: wrap}
+	h5 {font-size: 7vw; text-align: center; padding-top: 4vw}
+	h6 {font-size: 4.8vw; padding: 0 2vw; text-align: justify}
+}

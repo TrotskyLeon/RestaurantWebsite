@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1">
+<title>index</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="../css/index.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="box">
+<div class="headerwrapper">
+<div class="header">
+ <div class="topnav" id="myTopnav" style="display: flex; align-items: center; box-shadow: inset 0 0 0.5vw 0">
+  <a href="index.html" style="width: 27%; float: left; display: block"><img class="hoverimg" width="100%" style="display: block" src="../img/logo2.png"/></a>
+  <div class="headertext" style="display: flex; align-items: center">
+  <a class="zoom atext" href="about.html">About Us</a> 
+  <a class="zoom atext" href="menu.html">Menu</a>
+  <a class="zoom atext" href="event.html">Events</a>
+  <a class="zoom atext" href="membership.html">Membership</a>
+  <a class="zoom atext" href="contact.html">Contact us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction(); bars()" id="bars" style="color:#b59030">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+</div>
+<div style="position: absolute; width: 100%; top: -103vw" id="appear">
+<div class="phoneheader" style="border-top: 0.5vw black solid">
+	<a class="zoom atext phonetext" href="about.html">About Us</a> 
+</div>
+
+<div class="phoneheader">
+	<a class="zoom atext phonetext" href="menu.html">Menu</a>
+</div>
+
+<div class="phoneheader">
+	<a class="zoom atext phonetext" href="event.html">Events</a>
+</div>
+
+<div class="phoneheader">
+	<a class="zoom atext phonetext" href="membership.html">Membership</a> 
+</div>
+
+<div class="phoneheader">
+	 <a class="zoom atext phonetext" href="contact.html">Contact us</a>
+</div>
+</div>
+</div>
+</div>
+
+ <section style="position: fixed" class="downb" id="downb"><a id="down" class="down" href="#menu">&#10094;</a></section>
+<div class="content">
+<div class="about" id="about">
+  <img width="100%" height="100%" src="../img/placeholder1.jpg">
+	<div class="caption" id="caption">
+	<h1>
+		Welcome! We hope you enjoy your stay in our family-friendly restaurant! We are a dedicated team ready to serve.
+	</h1>
+	<h2>
+		Would like to learn more about us?
+	</h2>
+	<a class="click" href="about.html">click here</a>
+	
+	</div>
+</div>
+
+<div class="slideshow-container" id="menu">
+<div class="slides fade">
+  <img width="100%" src="../img/Salmon.JPG">
+</div>
+
+<div class="slides fade">
+	<img width="100%" src="../img/PaoTelurAsin.JPG">
+</div>
+
+<div class="slides fade">
+	<img width="100%" src="../img/pisanggoreng.JPG">
+</div>
+</div>
+<div class="menub">
+	<a class="menuclick" href="menu.html">Visit our menu!</a>
+</div>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<div class="events" id="events">
+	<img style="max-width: 100%" src="../img/restauracja.jpg">
+	<div class="caption2" id="caption2">
+	<h1>
+		In our restaurant, we always strive to keep things lively. Naturally, there will be tons of special events and promos all year long! These events and promos are tailored to meet the demands of our customers.
+	</h1>
+	<h2>
+		Browse our events....
+	</h2>
+	<a class="click2" href="event.html">here</a>
+	
+	</div>
+</div>
+
+
+<div class="member" id="member">
+	<img style="max-width: 100%" src="../img/banking-bill-breakfast-1332191.jpg">
+	<div class="caption3">
+	<h1>
+		A fan of discounts, promos, and much more?
+	</h1>
+	<a class="click3" href="membership.html">Become a Member!</a>
+	</div>
+</div>
+
+
+
+<div class="contact" id="contact">
+	<img style="max-width: 100%" src="../img/adult-beverage-blazer-1418343.jpg">
+	<div class="caption4">
+	<h1>
+		Inquiries? Feedback? Complaints?
+	</h1>
+	<a class="click4" href="contact.html">Reach out to us!</a>
+	</div>
+</div>
+<div class="footer">
+		<div class="blurfooter"></div>
+	<a target="_blank" class="logo fb" href="https://www.facebook.com/WK.ANDYTATOOS/"><img class="logop" style="height: 4vw" src="../img/facebook.png"></a>
+	<a target="_blank" class="logo ig" href="https://www.instagram.com/wk.andytattoos/"><img class="logop" style="height: 4vw" src="../img/instagram"></a>
+	<a target="_blank" class="logo wa" href="https://api.whatsapp.com/send?phone=6285226113000"><img class="logop" style="height: 4vw" src="../img/whatsapp.png"></a>
+	<a target="_blank" class="logo g" href="https://plus.google.com/u/1/106157702892915100501"><img class="logop" src="../img/googleplus.png" style="height: 4vw"></a>
+	<h4 class="fbt logot">WK. Andy Tattoos</h4>
+	<h4 class="igt logot">wk.andytattoos</h4>
+	<h4 class="wat logot">0822 8866 3000</h4>
+	<h4 class="gt logot">Andy Tattoos</h4>
+</div>
+</div>
+
+
+
+/* scripts */
+<script src="../javascript/opacity.js"></script>
+<script src="../javascript/jquery-3.3.1.min.js"></script>
+<script src="../javascript/jquery.paroller.min.js"></script>
+<script src="../javascript/jquery.paroller.js"></script>
+
+
+<script>
+function myFunction() {
+	var x = document.getElementById("appear");
+	if(x.style.top === "-103vw") {x.style.top = "12.2vw"}
+ else {x.style.top = "-103vw"}
+}
+	
+function bars() {
+	var y = document.getElementById("bars");
+	if (y.style.color === "black") {y.style.color = "#b59030"}
+	else {y.style.color = "black"}
+}
+</script>
+
+<script>
+	$(document).on('scroll', function()  {
+		var button = document.getElementById('down');
+    var wS = window.pageYOffset;
+    if (wS > 2810) {
+     button.href ='#'}
+else if (wS > 2100) {button.href = "#contact"}
+		else if (wS > 1390) {button.href = "#member"}
+			else if (wS > 680) {button.href = "#events"}
+		else {button.href = "#menu"}
+	});
+	
+	if (wS > 2810) {
+		button.style.transform ="rotate(90deg)"
+	}
+	else {button.style.transform ="rotate(-90deg)"}
+
+	</script>
+
+<script>
+	$(document).on('scroll', function()  {
+		var button = document.getElementById('down');
+    var wS = window.pageYOffset;
+	
+		if (wS > 2810) {
+		button.style.transform ="rotate(-270deg) translateY(-3.2vw) translateX(-1.95vw)"
+	}
+	else {button.style.transform ="rotate(-90deg)"}})
+	
+	</script>
+	
+<script>
+	$(document).on('scroll', function()  {
+		var button = document.getElementById('down');
+    var wS = window.pageYOffset;
+	
+		if (wS > 2860) {
+		button.style.opacity ="0" 
+	}
+	else {button.style.opacity ="1"}})
+	
+	</script>	
+
+<script>
+	window.addEventListener('scroll', function() {
+    var currScrollPos2 = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    if (currScrollPos2 > 0) {
+      document.getElementById('caption').style.opacity = -currScrollPos2 / 175 + 1.5;
+    }
+  }
+);
+	</script>
+
+		
+<script>
+	$('.caption').paroller({
+factor: 0.3,
+type: 'foreground',
+direction: 'vertical'
+});
+	</script>
+	
+<script>
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); 
+}
+	</script>
+	
+	
+
+	
+	<script>
+	$(function() {
+$("#box").click(function(e) {
+
+  var offset = $(this).offset();
+  var relativeX = (e.pageX - offset.left);
+  var relativeY = (e.pageY - offset.top);
+
+  aleert("X: " + relativeX + "  Y: " + relativeY);
+
+});
+});
+	</script>
+	
+	<script>
+	document.addEventListener('contextmenu', event => event.preventDefault());
+	</script>
+
+</body>
+</html>

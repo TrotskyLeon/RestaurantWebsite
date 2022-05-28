@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.accordion {
+  background-color: rgba(255,230,175,1.00);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+	font-size: 3vw;
+	text-transform: uppercase;
+	border-bottom: 0.25vw solid black;
+	
+}
+
+.accordion:hover {
+  background-color: rgba(250,232,192,1.00) !important
+}
+
+.actives:hover {
+	background-color: rgba(255,221,150,1.00) !important
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.2s ease-out;
+  background-color: rgba(255,247,230,1.00);
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 2.5vw;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+	transform: translateY(0.3vw)
+}
+
+.actives:after {
+  content: "\2796"; 
+}
+
+.panel p, .panel li {
+	font-family: raleway, Futura, Century Gothic, sans-serif;
+	font-size: 2vw;
+}
+
+ul {margin-top: 0}
+
+.contactus:hover {
+	color: rgba(150,150,150,1.00) !important
+}

@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<title>Membership</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/member.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="position: relative">
+<div class="headerwrapper">
+<div class="header">
+ <div class="topnav" id="myTopnav" style="display: flex; align-items: center; box-shadow: inset 0 0 0.5vw 0">
+  <a href="index.html" style="width: 27%; float: left; display: block"><img class="hoverimg" width="100%" style="display: block" src="../img/logo2.png"/></a>
+  <div class="headertext" style="display: flex; align-items: center">
+  <a class="zoom atext" href="about.html">About Us</a> 
+  <a class="zoom atext" href="menu.html">Menu</a>
+  <a class="zoom atext" href="event.html">Events</a>
+  <a class="zoom atext active" href="membership.html">Membership</a>
+  <a class="zoom atext" href="contact.html">Contact us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction(); bars()" id="bars" style="color:#b59030">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+</div>
+<div style="position: absolute; width: 100%; top: -103vw" id="appear">
+<div class="phoneheader" style="border-top: 0.5vw black solid">
+	<a class="zoom atext phonetext" href="about.html">About Us</a> 
+</div>
+
+<div class="phoneheader">
+	<a class="zoom atext phonetext" href="menu.html">Menu</a>
+</div>
+
+<div class="phoneheader">
+	<a class="zoom atext phonetext" href="event.html">Events</a>
+</div>
+
+<div class="phoneheader">
+	<a class="zoom atext phonetext" href="membership.html">Membership</a> 
+</div>
+
+<div class="phoneheader">
+	 <a class="zoom atext phonetext" href="contact.html">Contact us</a>
+</div>
+</div>
+</div>
+</div>
+
+<div style="display: block">
+	<img style="max-width: 100%" src="../img/member.jpg">
+</div>
+
+<button class="accordion">What are memberships?</button>
+<div class="panel">
+  <p>In Andy Tattoos, we offer memberships as an incentive for returning customers. Memberships come in the form of a card where your data will be stored with in a state-of-the-art magnetic strip attached to the card. Through the use of the membership system, both the restaurant and the customers will gain significantly!</p>
+</div>
+
+<button class="accordion">What will you get if you are a member?</button>
+<div class="panel">
+  <p>Naturally, by being a member, you will receive substantial benefits. In the most basic level, a membership will grant you a straight 5% discount on all foods and drinks sold in the restaurant. However, this benefit will improve rather exponentially the more you eat here. <p style="font-weight: 600; margin: 0; margin-bottom: 0.5vw">List of benefits:</p>
+  <ul>
+  	<li>Level 1: 5% Discount</li>
+  	<li>Level 2: 10% Discount</li>
+  	<li>Level 3: Free meal on your birthday</li>
+  	<li>Level 4: 15% Discount</li>
+  	<li>Level 5: 20% Discount</li>
+  </ul>
+  </p>
+</div>
+
+<button class="accordion">How can you apply for a membership?</button>
+<div class="panel">
+  <p>Applying for a membership have never been easier. Simply spend Rp. 100,000 on your meal and you are immediately eligible for a membership; it will then take us a maximum to process your information and to print your member card. Alternatively, you can simply <a class="contactus" style="color: rgba(133,133,133,1.00); font-weight: 600 " href="contact.html">contact us</a> to reserve a membership ahead of time, allowing you to make full use of your privileges immediately!</p>
+</div>
+
+
+
+<div class="footer">
+	<a target="_blank" class="logo fb" href="https://www.facebook.com/WK.ANDYTATOOS/"><img class="logop" style="height: 4vw" src="../img/facebook.png"></a>
+	<a target="_blank" class="logo ig" href="https://www.instagram.com/wk.andytattoos/"><img class="logop" style="height: 4vw" src="../img/instagram"></a>
+	<a target="_blank" class="logo wa" href="https://api.whatsapp.com/send?phone=6285226113000"><img class="logop" style="height: 4vw" src="../img/whatsapp.png"></a>
+	<a target="_blank" class="logo g" href="https://plus.google.com/u/1/106157702892915100501"><img class="logop" src="../img/googleplus.png" style="height: 4vw"></a>
+	<h4 class="fbt logot">WK. Andy Tattoos</h4>
+	<h4 class="igt logot">wk.andytattoos</h4>
+	<h4 class="wat logot">0822 8866 3000</h4>
+	<h4 class="gt logot">Andy Tattoos</h4>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("actives");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+		panel.style.borderBottom = "0vw";
+		this.style.backgroundColor = "rgba(255,230,175,1.00)";
+    } else {
+      panel.style.maxHeight = "30vw";
+		panel.style.borderBottom = "0.25vw black solid";
+		this.style.backgroundColor ="rgba(255,215,129,1.00)";
+    } 
+  });
+}
+</script>
+
+<script>
+	document.addEventListener('contextmenu', event => event.preventDefault());
+	</script>
+
+
+</body>
+
+
+</html>
